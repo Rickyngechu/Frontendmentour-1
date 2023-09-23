@@ -53,6 +53,7 @@ body {
   height: 100%;
 }
 .summary-cont {
+  max-width: 100rem;
   display: flex;
   justify-content: space-between;
   gap: 1rem;
@@ -64,10 +65,12 @@ body {
   background-color: var(--White);
 }
 .flex-item {
+  max-width: 70rem;
   flex-basis: 50%;
   /* flex-grow: 1;
   flex-shrink: 1; */
 }
+
 .summary-result {
   background-image: linear-gradient(
     to bottom,
